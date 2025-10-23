@@ -11,7 +11,7 @@ void bound(long long start, long long end) {
 		return;
 	}
 	long long mid = (start + end) / 2;
-	if (mid == 0) return;
+
 
 	long long minAns = 0;
 	for (int i = 0; i < lens.size(); i++) {
